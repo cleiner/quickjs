@@ -1,4 +1,4 @@
-module github.com/lithdew/quickjs
+module github.com/cleiner/quickjs
 
 go 1.14
 
