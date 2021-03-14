@@ -1,3 +1,9 @@
+Note: Forked from https://github.com/lithdew/quickjs
+- changed Go module name to `github.com/cleiner/quickjs`
+- updated QuickJS to version 2020-11-08
+- disabled the interpreter's stack overflow check, so calling `runtime.LockOSThread()` (guideline 5 below) isn't necessary anymore
+- disabled dependency on pthread
+
 # quickjs
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](LICENSE)
